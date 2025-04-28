@@ -1,0 +1,76 @@
+/* About Us Container */
+.about-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+/* About Content Paragraphs */
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 25px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* Emphasized Text (strong) */
+.about-content strong {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Contact Section */
+.contact-section {
+  margin-top: 50px;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Contact Title */
+.contact-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contact Details */
+.contact-details p {
+  font-size: 1.15rem;
+  color: #777;
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Contact Email and Phone Styling */
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
