@@ -1,0 +1,191 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "morning", "evening", "howdy", "what's up"],
+      "responses": ["Hello! How can I assist you with your travel plans?", "Hi there! How can I help you today?", "Hey! Need help planning your trip?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "see you later", "bye", "take care", "see you", "bye bye", "catch you later"],
+      "responses": ["Goodbye! Safe travels!", "Take care! Have a wonderful day!", "Goodbye! Hope to chat with you again soon!"]
+    },
+    {
+      "tag": "hotels",
+      "patterns": ["hotels in india", "places to stay in india", "where can I stay in india", "best hotels in india", "good hotels in india"],
+      "responses": [
+        "India offers a variety of accommodation options: Taj Hotels, Oberoi Hotels, ITC Hotels, and more.",
+        "You can find luxury, budget, and boutique hotels in major cities like Delhi, Mumbai, Jaipur, and Goa."
+      ]
+    },
+    {
+      "tag": "sightseeing",
+      "patterns": ["places to visit in india", "top tourist attractions in india", "what to see in india", "sightseeing in india", "best places to visit in india"],
+      "responses": [
+        "India is filled with beautiful spots: The Taj Mahal in Agra, the Qutub Minar in Delhi, the beaches of Goa, and the Himalayas in the North.",
+        "Popular destinations include the Amber Fort in Jaipur, the backwaters of Kerala, and the Gateway of India in Mumbai."
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": ["how to get around in india", "transportation in india", "how do I travel around india", "what's the best way to travel in india", "indian transportation options"],
+      "responses": [
+        "In India, you can use trains, buses, taxis, auto-rickshaws, and even metros in big cities like Delhi, Mumbai, and Bangalore.",
+        "Domestic flights, buses, and trains are the most common ways to travel between cities. Within cities, Uber, Ola, and local rickshaws are convenient."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": ["where to eat in india", "best food in india", "local food in india", "food recommendations india", "indian cuisine"],
+      "responses": [
+        "India has diverse cuisine! Try butter chicken in Delhi, dosas in South India, street food in Mumbai, and biryani in Hyderabad.",
+        "For authentic experiences, try North Indian tandoori dishes, South Indian idli-vada, and local snacks like pani puri and samosas."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["weather in india", "what is the weather like in india", "india weather", "is it raining in india", "weather across india"],
+      "responses": [
+        "India has diverse weather patterns: warm in the south, cold in the north, monsoon season from June to September.",
+        "The weather varies greatly depending on the region; check specific cities like Delhi, Mumbai, or Bangalore for accurate forecasts."
+      ]
+    },
+    {
+      "tag": "best_time_to_visit",
+      "patterns": ["best time to visit india", "when to visit india", "ideal time to go to india", "what's the best season to visit india"],
+      "responses": [
+        "The best time to visit India is from October to March when the weather is cooler and pleasant.",
+        "For beach lovers, Goa and Kerala are best visited during the winter months, while the Himalayan regions are perfect for trekking in the summer."
+      ]
+    },
+    {
+      "tag": "cultural_experiences",
+      "patterns": ["culture in india", "indian culture", "local culture of india", "festivals in india", "cultural festivals in india"],
+      "responses": [
+        "India is rich in culture, with festivals like Diwali, Holi, Eid, and Onam celebrated across the country.",
+        "Experience traditional dance forms like Bharatanatyam in Tamil Nadu, Kathak in North India, and classical music performances in Kolkata."
+      ]
+    },
+    {
+      "tag": "shopping",
+      "patterns": ["where to shop in india", "shopping in india", "best markets in india", "local shopping india", "shopping malls india"],
+      "responses": [
+        "India has great shopping: From Delhi’s Chandni Chowk and Mumbai’s Colaba Causeway to Jaipur’s Johari Bazaar and the markets in Goa.",
+        "You can also visit luxury malls like DLF Mall in Delhi, Phoenix Marketcity in Mumbai, and UB City Mall in Bangalore."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": ["history of india", "indian history", "historical sites in india", "india's past", "historical landmarks in india"],
+      "responses": [
+        "India has a rich history with landmarks like the Red Fort in Delhi, the Ajanta and Ellora Caves, and the historic temples of Khajuraho.",
+        "From the ancient Indus Valley Civilization to the British colonial era, India’s history is vast and diverse."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["emergency services in india", "emergency contact india", "police in india", "fire services in india", "ambulance in india"],
+      "responses": [
+        "For emergencies, dial 112 for police, fire, or ambulance services anywhere in India.",
+        "In case of any emergency, reach out to 100 for police, 102 for an ambulance, and 101 for fire services."
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": ["what language is spoken in india", "languages spoken in india", "do people speak english in india", "india language"],
+      "responses": [
+        "India is a multi-lingual country with over 22 official languages. Hindi and English are widely spoken, and regional languages like Tamil, Bengali, Telugu, and Marathi are commonly used.",
+        "In tourist areas, you can easily communicate in English, but knowing some basic Hindi or the local language is always helpful."
+      ]
+    },
+    {
+      "tag": "cities",
+      "patterns": ["places to visit in delhi", "hotels in mumbai", "things to do in jaipur", "tourist attractions in kerala", "best places to visit in goa"],
+      "responses": [
+        "In Delhi, visit the Red Fort, Qutub Minar, and Humayun's Tomb. In Mumbai, check out Gateway of India, Marine Drive, and the Elephanta Caves.",
+        "Jaipur offers the Amber Fort, Hawa Mahal, and City Palace. Kerala is known for its backwaters, tea plantations, and beaches. Goa has great beaches and nightlife!"
+      ]
+    },
+    {
+      "tag": "special_offers",
+      "patterns": ["special offers for hotels in india", "discounts for tours in india", "holiday packages india", "deals for flights to india"],
+      "responses": [
+        "There are many travel portals like MakeMyTrip, Yatra, and Cleartrip that offer great discounts and packages for hotels and flights.",
+        "Keep an eye out for deals during the holiday seasons, especially Diwali and New Year, when many hotels and airlines offer discounts."
+      ]
+    },
+    {
+      "tag": "adventure",
+      "patterns": ["adventure tourism in india", "best adventure sports in india", "trekking in india", "rafting in india", "mountain climbing india"],
+      "responses": [
+        "India offers great adventure sports: Try trekking in the Himalayas, rafting in Rishikesh, or paragliding in Bir Billing.",
+        "You can also try rock climbing in Rajasthan, skiing in Gulmarg, and scuba diving in Andaman and Nicobar Islands."
+      ]
+    },
+    {
+      "tag": "wildlife",
+      "patterns": ["wildlife sanctuaries in india", "best wildlife parks in india", "safari in india", "where to see tigers in india", "animal safaris india"],
+      "responses": [
+        "India has many wildlife parks: Ranthambhore National Park, Jim Corbett National Park, and Sundarbans are famous for tiger sightings.",
+        "You can also visit Kaziranga for rhinos, Periyar for elephants, and the Gir Forest for Asiatic lions."
+      ]
+    },
+    {
+      "tag": "heritage",
+      "patterns": ["heritage sites in india", "world heritage sites india", "cultural heritage of india", "ancient sites in india", "historic landmarks in india"],
+      "responses": [
+        "India has a rich heritage with sites like the Taj Mahal, Qutub Minar, Ajanta Caves, and Khajuraho temples.",
+        "Other UNESCO World Heritage Sites include the Red Fort, the ancient city of Hampi, and the rock-cut caves of Ellora."
+      ]
+    },
+    {
+      "tag": "religion",
+      "patterns": ["religion in india", "what religions are practiced in india", "is india a religious country", "religious diversity in india", "main religions of india"],
+      "responses": [
+        "India is a land of religious diversity. Major religions include Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism.",
+        "Religious practices are an integral part of Indian culture, and temples, mosques, and churches are found throughout the country."
+      ]
+    },
+    {
+      "tag": "weather_forecast",
+      "patterns": ["what's the weather forecast in india", "weather forecast for india", "weather today in india", "how is the weather in india", "forecast india"],
+      "responses": [
+        "For an accurate weather forecast, you can check local meteorological sites like AccuWeather or the India Meteorological Department.",
+        "The weather in India is diverse, so make sure to check the forecast for specific regions like the northern mountains, southern coast, or eastern plains."
+      ]
+    },
+    {
+      "tag": "festivals",
+      "patterns": ["what festivals are celebrated in india", "indian festivals", "popular festivals in india", "holidays in india", "when is diwali"],
+      "responses": [
+        "India celebrates a variety of festivals: Diwali, Holi, Eid, Christmas, and many regional festivals like Onam, Pongal, and Durga Puja.",
+        "Festivals in India are celebrated with great enthusiasm, with grand celebrations, street parades, and temple rituals."
+      ]
+    },
+    {
+      "tag": "currency",
+      "patterns": ["what is the currency of india", "currency used in india", "how much is 1 dollar in india", "india currency exchange", "rupee currency"],
+      "responses": [
+        "The currency of India is the Indian Rupee (INR). Exchange rates can fluctuate, so it's best to check the current rates before traveling.",
+        "Most major currencies like USD, Euro, and GBP can be exchanged at airports, banks, or local exchange offices."
+      ]
+    },
+    {
+      "tag": "visa",
+      "patterns": ["do I need a visa to visit india", "how to get a visa for india", "india tourist visa", "requirements for visa to india", "visa application india"],
+      "responses": [
+        "Yes, most foreign nationals require a visa to visit India. You can apply for an e-Visa or a traditional tourist visa.",
+        "Check the official Indian government website or your nearest embassy for specific visa requirements based on your nationality."
+      ]
+    },
+    {
+      "tag": "transportation_in_city",
+      "patterns": ["how to travel within delhi", "getting around in mumbai", "public transport in kolkata", "transportation options in bangalore", "how to use metro in india"],
+      "responses": [
+        "Cities like Delhi, Bangalore, and Mumbai have metro systems that are fast and affordable. For local transport, you can use auto-rickshaws, taxis, or ride-sharing apps like Ola and Uber.",
+        "In cities like Kolkata, you can also use trams and local buses for affordable travel."
+      ]
+    }
+  ]
+}
